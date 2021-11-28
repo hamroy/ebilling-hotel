@@ -14,6 +14,7 @@ for a given task.
 Server Requirements
 *******************
 PHP version > 7.0
+--
 Mysql version > 5.0
 
 ************
