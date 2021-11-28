@@ -38,7 +38,7 @@ RESEPSIONIS
 ************
 Installation
 ************
-Git Clone https://github.com/sediakoding/Billing-Hotel.git
+Git clone https://github.com/hamroy/ebilling-hotel.git
 
 Atau
 
