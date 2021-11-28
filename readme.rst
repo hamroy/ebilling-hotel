@@ -45,7 +45,7 @@ Atau
 Donwload Zip
 
 ************
-DONASI
+INGIN TAHU KAMI
 ************
 Info Lebih lanjut hubungi:
 
