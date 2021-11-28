@@ -14,6 +14,7 @@ for a given task.
 Server Requirements
 *******************
 PHP version > 7.0
+MYsql version > 5.0
 
 ************
 SEKILAS
@@ -21,7 +22,7 @@ SEKILAS
 aplikasi billing hotel dapat dengan cepat memasukan data pada hotel akan lebih akurat.
 ADMIN
 1. input user resepsionis
-2. input jenis kamar dan nomer kamar
+2. input jenis kamar dan nomor kamar
 2. pengaturan harga kamar
 3. Laporan keuangan semua resepsionis
 RESEPSIONIS
@@ -30,10 +31,10 @@ RESEPSIONIS
 3. laporan resepsionis
 
 
-#aplikasihotel
+#aplikasibillinghotel
 #sediakoding
-#bokinghotel
-#biling
+#resepsionishotel
+#bilinghotel
 
 ************
 Installation
