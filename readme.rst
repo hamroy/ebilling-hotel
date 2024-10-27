@@ -50,7 +50,7 @@ Donwload Zip
 INGIN TAHU KAMI
 ************
 Info Lebih lanjut hubungi:
-<a href="https://t.me/sediapp" target="_blank">Telegram</a>
+https://t.me/sediapp
 https://bit.ly/lanjut-wa-kami
 
 
