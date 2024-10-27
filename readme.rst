@@ -33,7 +33,6 @@ RESEPSIONIS
 
 
 #aplikasibillinghotel
-#sediakoding
 #resepsionishotel
 #bilinghotel
 
@@ -41,6 +40,7 @@ RESEPSIONIS
 Installation
 ************
 **Github**
+
 - Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
 - Clone to your machine
 ```
