@@ -40,7 +40,13 @@ RESEPSIONIS
 ************
 Installation
 ************
-Git clone https://github.com/hamroy/ebilling-hotel.git
+Git clone 
+
+- Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
+- Clone to your machine
+```
+~git clone https://github.com/hamroy/ebilling-hotel.git
+```
 
 Atau
 
