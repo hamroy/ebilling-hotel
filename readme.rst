@@ -13,9 +13,8 @@ for a given task.
 *******************
 Server Requirements
 *******************
-PHP version > 7.0
---
-Mysql version > 5.0
+- PHP version = 7.4
+- Mysql version = 5.0
 
 ************
 SEKILAS
@@ -43,9 +42,11 @@ Installation
 
 - Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
 - Clone to your machine
-```
-git clone https://github.com/hamroy/ebilling-hotel.git
-```
+
+````
+
+ git clone https://github.com/hamroy/ebilling-hotel.git
+````
 
 Atau
 
@@ -59,5 +60,7 @@ Info Lebih lanjut hubungi:
 https://t.me/sediapp
 
 https://bit.ly/lanjut-wa-kami
+
+
 
 
