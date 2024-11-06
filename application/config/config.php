@@ -29,15 +29,15 @@ $config['nameAPP'] = 'Billing Hotel';
 $config['mail'] = 'ilpankroy@gmail.com';
 $config['pass_mail'] = '';
 //Setingan Database
-$config['database_host']	= 'localhost';
-$config['database_user']	= 'root';
-$config['database_pass'] 	= '';
-$config['database_name']	= 'db_bill_hotel';
+$config['database_host']    = 'localhost';
+$config['database_user']    = 'root';
+$config['database_pass']     = '';
+$config['database_name']    = 'db_bill_hotel';
 
 //Setingan Base URL
 $config['base_url'] = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" : "http");
-$config['base_url'] .= "://".$_SERVER['HTTP_HOST'];
-$config['base_url'] .= preg_replace('@/+$@','',dirname($_SERVER['SCRIPT_NAME'])).'/';
+$config['base_url'] .= "://" . $_SERVER['HTTP_HOST'];
+$config['base_url'] .= preg_replace('@/+$@', '', dirname($_SERVER['SCRIPT_NAME'])) . '/';
 /*
 |--------------------------------------------------------------------------
 | Index File
@@ -436,7 +436,7 @@ $config['standardize_newlines'] = FALSE;
 |          for backwards compatibility purposes!
 |
 */
-$config['global_xss_filtering'] = FALSE;
+$config['global_xss_filtering'] = true;
 
 /*
 |--------------------------------------------------------------------------

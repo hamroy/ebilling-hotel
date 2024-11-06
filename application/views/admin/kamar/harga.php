@@ -1,13 +1,14 @@
-<div class="container">
-  <div class="table-responsive">
+<div class="container panel ">
+  <div class="table-responsive panel-body">
 
     <table class="table"><br />
       <h4 class="well">Pengaturan Harga Kamar</h4>
-      <br />
       <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myfblplus">
         <span class="glyphicon glyphicon-plus"></span> Tambah Jenis kamar
       </button>
-      <table class="table table-striped">
+      <br />
+      <br />
+      <table class="table table-striped table-hover">
         <tr>
           <th>No.</th>
           <th>Jenis Kamar</th>
@@ -26,16 +27,11 @@
 
         $no = 1;
         foreach ($get->result() as $q) {
-          if ($this->Madmin->get_sempeljenis($q->id_jkamar)->num_rows() > 0) {
-            $get_k = $q->harga_p;
-            $bed = $q->bed;
-            $ot = $q->ot;
-            $ot1 = $q->ot2;
-          } else {
-            $get_k = 'kamar kosong';
-            $ot = 'kamar kosong';
-            $ot1 = 'kamar kosong';
-            $bed = 'kamar kosong';
+          $get_k = $q->harga_p;
+          $bed = $q->bed;
+          $ot = $q->ot;
+          $ot1 = $q->ot2;
+          if ($this->Madmin->get_sempeljenis($q->id_jkamar)->num_rows() == 0) {
           }
 
         ?>
@@ -97,14 +93,7 @@
                                 <input type="number" min="0" name="harga" class="form-control" id="inputEmail3" value="<?= $get_k ?>">
                               </div>
                             </div>
-                            <div class="form-group">
-                              <label for="inputEmail3" class="col-sm-4 control-label">
-                                <p class="text-left">Harga Peake Season</p>
-                              </label>
-                              <div class="col-sm-8">
-                                <input type="number" min="0" name="harga" class="form-control" id="inputEmail3" value="<?= $get_k ?>">
-                              </div>
-                            </div>
+
                             <div class="form-group">
                               <label for="inputEmail3" class="col-sm-4 control-label">
                                 <p class="text-left">Harga weekdays</p>
@@ -186,18 +175,17 @@
 
 
 
-
-
-<div class="container">
-  <div class="table-responsive">
+<div class="container panel">
+  <div class="table-responsive panel-body">
 
     <table class="table"><br />
       <h4 class="well">Daftar Kamar</h4>
-      <br />
       <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myfblpluskm">
         <span class="glyphicon glyphicon-plus"></span> Tambah kamar
       </button>
-      <table class="table table-striped">
+      <br />
+      <br />
+      <table class="table table-striped table-hover">
         <tr>
           <th>No.</th>
           <th>No. Kamar</th>
